@@ -3,9 +3,11 @@ import styles from './App.scss';
 import Home from '../Home/HomeContainer';
 import Info from '../Info/Info';
 import FAQ from '../FAQ/FAQ';
+import SearchResults from '../SearchResults/SearchResultsContainer';
 import MainLayout from '../MainLayout/MainLayout';
 import { BrowserRouter, Route } from 'react-router-dom';
 import { AnimatedSwitch } from 'react-router-transition';
+import List from '../List/ListContainer';
 
 const App = () => (
   <BrowserRouter>
@@ -19,6 +21,8 @@ const App = () => (
         <Route exact path='/' component={Home} />
         <Route exact path='/info' component={Info} />
         <Route exact path='/faq' component={FAQ} />
+        <Route exact path='/list/:id' component={List} />
+        <Route exact path='/search/...' component={SearchResults} />
       </AnimatedSwitch>
     </MainLayout>
   </BrowserRouter>

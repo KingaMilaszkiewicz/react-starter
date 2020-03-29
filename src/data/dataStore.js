@@ -23,13 +23,13 @@ export const pageContents = {
 
 export const infoData = {
   title: 'Info',
-  image: 'https://image.freepik.com/free-vector/colorful-abstract-background-with-memphis-elements_23-2148468895.jpg',
+  image: 'https://i.imgur.com/bpnI6Gq.png',
   text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
 };
 
 export const faqData = {
   title: 'FAQ',
-  image: 'https://image.freepik.com/free-vector/abstract-background-concept_23-2148479464.jpg',
+  image: 'https://i.imgur.com/2DbJwsE.png',
   text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
 };
 
@@ -91,7 +91,19 @@ const lists = [
     id: 'list-1',
     title: 'Things to do <sup>soon!</sup>',
     description: 'Interesting things I want to check out!',
-    image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+    image: 'https://i.imgur.com/POouLmn.png',
+  },
+  {
+    id: 'list-2',
+    title: 'Things to do <sup>in the far future!</sup>',
+    description: 'Interesting things I want to check out!',
+    image: 'https://i.imgur.com/bpnI6Gq.png',
+  },
+  {
+    id: 'list-3',
+    title: 'Things to do <sup>maybe!</sup>',
+    description: 'Interesting things I want to check out!',
+    image: 'https://i.imgur.com/2DbJwsE.png',
   },
 ];
 
